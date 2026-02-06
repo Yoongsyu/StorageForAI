@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit
+.streamlit/secrets.toml
+# .streamlit/config.toml # config.toml might be safe, but secrets is definitely not
+
+# Environment
+.env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
